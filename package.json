@@ -7,5 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "pXius",
-  "license": "WTFPL"
+  "license": "WTFPL",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
