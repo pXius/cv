@@ -1,0 +1,49 @@
+@import './variables.css';
+
+footer {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  background-color: var(--color4);
+  color: var(--color1);
+}
+
+a {
+  margin: 0px;
+}
+/* unvisited link */
+a:link {
+  text-decoration: none;
+  color: var(--color1);
+}
+
+/* visited link */
+a:visited {
+  text-decoration: none;
+  color: var(--color1);
+}
+
+/* mouse over link */
+a:hover {
+  text-decoration: none;
+  color: var(--color1);
+}
+
+/* selected link */
+a:active {
+  text-decoration: none;
+  color: var(--color1);
+}
+
+.contact-info {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: flex-start;
+}
+
+.info {
+  flex: 1 1 230px;
+  flex-shrink: 0;
+  display: inline-block;
+  margin-top: 10px;
+}

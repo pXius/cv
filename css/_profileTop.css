@@ -1,0 +1,118 @@
+@import './variables.css';
+
+.profile-pic {
+  object-fit: cover;
+  object-position: 100% 15%;
+  width: 180px;
+  height: 180px;
+  border: 8px solid var(--color2);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.top-section {
+  background: linear-gradient(180deg, var(--color4) 50%, var(--color2) 50%);
+}
+
+.top-content {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+}
+
+.profile-name {
+  display: flex;
+  flex-direction: column;
+  margin-top: 38px;
+  margin-left: 10px;
+}
+
+.name {
+  padding: 0px;
+  margin-bottom: 4px;
+  color: var(--color2);
+  text-transform: uppercase;
+}
+
+.job-title {
+  margin-top: 0px;
+  padding-top: 0px;
+  color: var(--color4);
+  font-weight: 300;
+}
+
+.about-me {
+  padding-bottom: 20px;
+  background-color: var(--color2);
+  text-align: justify;
+  text-justify: inter-word;
+  color: var(--color4);
+}
+
+.quote {
+  padding-bottom: 10px;
+  font-size: 1.2em;
+  font-weight: 400;
+  font-style: italic;
+}
+.skills-section {
+  background-color: var(--color1);
+}
+.skills {
+  padding-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.skill {
+  padding-top: 20px;
+  padding-right: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--color2);
+}
+.skills .icon {
+  padding-bottom: 20px;
+  width: 68px;
+}
+
+@media screen and (max-width: 799px) {
+  .top-content {
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0px;
+  }
+
+  .profile-pic {
+    margin-top: 85px;
+  }
+
+  .name {
+    margin-top: 0px;
+    color: var(--color4);
+  }
+
+  .profile-name {
+    margin-top: 0;
+    text-align: center;
+  }
+
+  .skills {
+    width: 400px;
+    justify-content: center;
+  }
+
+  .skill {
+    padding-left: 19px;
+    padding-right: 19px;
+  }
+}

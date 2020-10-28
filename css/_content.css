@@ -1,0 +1,94 @@
+@import './variables.css';
+
+.education-section {
+  background-color: var(--color4);
+  color: var(--color2);
+}
+
+.education-section h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 20px;
+}
+
+.education {
+  padding-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.education h3 {
+  flex: 1;
+  margin-bottom: 0px;
+  padding-bottom: 5px;
+}
+
+.edu-item {
+  flex: 1 1 266px;
+  display: flex;
+  flex-direction: column;
+  align-self: start;
+  padding-right: 15px;
+}
+
+.edu-item p {
+  flex: 1;
+  padding-top: 0px;
+  margin-top: 0px;
+  margin-bottom: 0;
+  color: var(--color1);
+}
+
+.edu-item .date {
+  margin: 0;
+  font-style: italic;
+  font-size: small;
+}
+
+.work-section {
+  background-color: var(--color2);
+  padding-bottom: 20px;
+}
+
+.work-section h2 {
+  margin-top: 0;
+  padding-top: 20px;
+}
+
+.work-experience {
+  color: var(--color1);
+}
+
+.work-experience h3 {
+  margin-bottom: 0;
+}
+
+.work-experience p {
+  color: var(--color4);
+  margin: 2px auto;
+}
+
+.workplace {
+  font-weight: bold;
+}
+
+.workplace-specialty {
+  font-weight: 100;
+}
+
+.work-experience .date {
+  font-size: small;
+  font-weight: 300;
+  font-style: italic;
+  padding-bottom: 10px;
+}
+
+.job {
+  max-width: 1000px;
+}
+
+.work-experience .description {
+  text-align: justify;
+  text-justify: inter-word;
+}
