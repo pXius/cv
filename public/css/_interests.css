@@ -2,6 +2,7 @@
 
 .interests-section {
   background-color: var(--color1);
+  color: var(--color2);
 }
 
 .interests {
@@ -19,11 +20,16 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: var(--color2);
 }
 .interest .icon {
   padding-bottom: 5px;
   width: 68px;
+}
+
+.interest-title {
+  text-align: center;
+  margin: 0;
+  padding-top: 20px;
 }
 
 @media screen and (max-width: 799px) {
